@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Tamacatchi</title>
+
+    <link rel="stylesheet" href="tamagotchistyle.css">
+
+    <link rel="icon" href="Icons/Happy.png">
+
+</head>
+
+<body>
+
+<div id="allElements">
+
+    <img id="egg" src="https://mineblocks.com/1/wiki/images/2/26/Egg.png" alt="Egg">
+
+    <div id="screen"></div>
+
+    <div class="buttons">
+        <button id="ba" onclick = "buttonA()">A</button>
+        <button id="bb" onclick = "buttonB()">B</button>
+        <button id="bc" onclick = "buttonC()">C</button>
+    </div>
+
+    <div class="pet">
+        <img id="happy" src="Icons/Happy.png" />
+        <!-- <img id="sad" src="Icons/Sad.png"/> -->
+        <!-- <img id="Eating" src="Icons/Eating.png"/> -->
+        <!-- <img id="Playing" src="Icons/Playing.png"/> -->
+    </div>
+
+    <div class="foodTypes">
+        <img id="apple" src="Icons/apple.png"/>
+    </div>
+
+    <div class="eatingFood">
+        <img id="eatingApple" src="Icons/apple.png"/>
+    </div>
+
+    <div class="sliders">
+        
+        <div class="sliderclass">
+        <input class="eachSlider" id="Happiness" type="range" min="0" max="100" value="50">
+        <p id="happinessTitle">HAPPINESS</p>
+        </div>
+        
+        <div class="sliderclass">
+        <input class="eachSlider" id="Hunger" type="range" min="0" max="100" value="100">
+        <p id="hungerTitle">HUNGER</p>
+        </div>
+        
+        <div class="sliderclass">
+        <input class="eachSlider" id="Boredom" type="range" min="0" max="100" value="0">
+        <p id="boredomTitle">BOREDOM</p>
+        </div>
+
+    </div>
+
+</div>
+
+    <script src="tamagotchiscript.js"></script>
+    
+</body>
+
+</html> 
